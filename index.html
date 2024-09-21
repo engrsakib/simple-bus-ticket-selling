@@ -1,110 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Smart Ticketing</title>
     <!-- font roboto -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <!-- css and tailwind -->
-     <link rel="stylesheet" href="./output/output.css">
-     <!-- font awsame -->
-     <script src="https://kit.fontawesome.com/3c3766bed1.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="./output/output.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awsame -->
+    <script
+      src="https://kit.fontawesome.com/3c3766bed1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <!-- main section start -->
-     <main class="container mx-auto">
-        <!-- navbar start -->
-         <nav class="w-4/5 h-[70px] m-7 mx-auto bg-white mt-3 shadow flex items-center justify-between">
-            <!-- logo start -->
-             <div>
-                <h1 class="lg:text-[40px] text-[25px] text-amber-700">Sakib <span class="text-black">Poribohan</span></h1>
-             </div>
-            <!-- logo end -->
-             <!-- manu start -->
-              <div class="flex items-center justify-between list-none gap-x-4 max-sm:hidden">
-               <li><a href="">Home</a></li>
-               <li><a href="">About</a></li>
-               <li><a href="">Destination</a></li>
-               <li><a href="">Search</a></li>
-              </div>
-             <!-- manu end -->
-            <!-- button -->
-            <button class="btn btn-outline btn-accent"><i class="fa-solid fa-van-shuttle"></i></button>
-            <!-- button -->
-         </nav>
-        <!-- navbar end -->
-         <!-- carusal start -->
-          <div class="container my-4">
-            <div class="carousel w-full h-[450px]">
-               <div id="item1" class="carousel-item w-full">
-                 <img
-                   src="./smart-ticketing/images/banner.png"
-                   class="w-full" />
-               </div>
-               <div id="item2" class="carousel-item w-full">
-                 <img
-                   src="./smart-ticketing/images/image.jpg"
-                   class="w-full" />
-               </div>
-               <div id="item3" class="carousel-item w-full">
-                 <img
-                   src="./smart-ticketing/images/img2.jpg"
-                   class="w-full" />
-               </div>
-               <div id="item4" class="carousel-item w-full">
-                 <img
-                   src="./smart-ticketing/images/ScaniaSleeper.jpg"
-                   class="w-full" />
-               </div>
-             </div>
-             <div class="flex w-full justify-center gap-2 py-2">
-               <a href="#item1" class="btn btn-xs">1</a>
-               <a href="#item2" class="btn btn-xs">2</a>
-               <a href="#item3" class="btn btn-xs">3</a>
-               <a href="#item4" class="btn btn-xs">4</a>
-             </div>
+    <main class="container mx-auto">
+      <!-- navbar start -->
+      <nav
+        class="w-4/5 h-[70px] m-7 mx-auto bg-white mt-3 shadow flex items-center justify-between"
+      >
+        <!-- logo start -->
+        <div>
+          <h1 class="lg:text-[40px] text-[25px] text-amber-700">
+            Sakib <span class="text-black">Poribohan</span>
+          </h1>
+        </div>
+        <!-- logo end -->
+        <!-- manu start -->
+        <div
+          class="flex items-center justify-between list-none gap-x-4 max-sm:hidden"
+        >
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Destination</a></li>
+          <li><a href="">Search</a></li>
+        </div>
+        <!-- manu end -->
+        <!-- button -->
+        <button class="btn btn-outline btn-accent">
+          <i class="fa-solid fa-van-shuttle"></i>
+        </button>
+        <!-- button -->
+      </nav>
+      <!-- navbar end -->
+      <!-- carusal start -->
+      <div class="container my-4">
+        <div class="carousel w-full h-[450px]">
+          <div id="item1" class="carousel-item w-full">
+            <img src="./smart-ticketing/images/banner.png" class="w-full" />
           </div>
-         <!-- carusal end -->
-     </main>
-     <!-- cuppon offer start -->
-      <section class="container mx-auto">
-         <h2 class="text-center text-[30px] font-bold mt-3">Best offers for you</h2>
-         <div class="flex max-sm:flex-col gap-2">
-            <div class="bg-yellow w-1/2 h-auto bg-no-repeat flex items-center justify-evenly">
-               <div class="mt-5">
-                  <h1 class="text-[25px] text-black font-black">15% OFF</h1>
-                  <h3 class="text-black text-[15px] font-medium">on your next purchase</h3>
-                  <p class='text-gray-700'>use by January 2024</p>
-               </div>
-               <div class="mt-5">
-                  <h1 class="text-[25px] text-black font-black">NEW15</h1>
-                  <p class='text-gray-700'>for get 15% OFF</p>
-               </div>
-            </div>
+          <div id="item2" class="carousel-item w-full">
+            <img src="./smart-ticketing/images/image.jpg" class="w-full" />
+          </div>
+          <div id="item3" class="carousel-item w-full">
+            <img src="./smart-ticketing/images/img2.jpg" class="w-full" />
+          </div>
+          <div id="item4" class="carousel-item w-full">
+            <img
+              src="./smart-ticketing/images/ScaniaSleeper.jpg"
+              class="w-full"
+            />
+          </div>
+        </div>
+        <div class="flex w-full justify-center gap-2 py-2">
+          <a href="#item1" class="btn btn-xs">1</a>
+          <a href="#item2" class="btn btn-xs">2</a>
+          <a href="#item3" class="btn btn-xs">3</a>
+          <a href="#item4" class="btn btn-xs">4</a>
+        </div>
+      </div>
+      <!-- carusal end -->
+    </main>
+    <!-- cuppon offer start -->
+    <section class="container mx-auto">
+      <h2 class="text-center text-[30px] font-bold mt-3">
+        Best offers for you
+      </h2>
+      <div class="flex max-sm:flex-col gap-2">
+        <div
+          class="bg-yellow w-1/2 h-auto bg-no-repeat flex items-center justify-evenly"
+        >
+          <div class="mt-5">
+            <h1 class="text-[25px] text-black font-black">15% OFF</h1>
+            <h3 class="text-black text-[15px] font-medium">
+              on your next purchase
+            </h3>
+            <p class="text-gray-700">use by January 2024</p>
+          </div>
+          <div class="mt-5">
+            <h1 class="text-[25px] text-black font-black">NEW15</h1>
+            <p class="text-gray-700">for get 15% OFF</p>
+          </div>
+        </div>
 
-            <div class="bg-pink w-1/2 h-auto bg-no-repeat flex items-center justify-evenly">
-               <div class="mt-5">
-                  <h1 class="text-[25px] text-black font-black">25% OFF</h1>
-                  <h3 class="text-black text-[15px] font-medium">on your next purchase</h3>
-                  <p class='text-gray-700'>use by January 2024</p>
-               </div>
-               <div class="mt-5">
-                  <h1 class="text-[25px] text-black font-black">CAP25</h1>
-                  <p class='text-gray-700'>for get 25% OFF</p>
-               </div>
-            </div>
-         </div>
-         <div class="flex justify-center">
-            <button class="mt-6 btn btn-outline btn-success">See All Offer</button>
-         </div>
-      </section>
-     <!-- cuppon offer end -->
+        <div
+          class="bg-pink w-1/2 h-auto bg-no-repeat flex items-center justify-evenly"
+        >
+          <div class="mt-5">
+            <h1 class="text-[25px] text-black font-black">25% OFF</h1>
+            <h3 class="text-black text-[15px] font-medium">
+              on your next purchase
+            </h3>
+            <p class="text-gray-700">use by January 2024</p>
+          </div>
+          <div class="mt-5">
+            <h1 class="text-[25px] text-black font-black">CAP25</h1>
+            <p class="text-gray-700">for get 25% OFF</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <button class="mt-6 btn btn-outline btn-success">See All Offer</button>
+      </div>
+    </section>
+    <!-- cuppon offer end -->
     <!-- main section end -->
-     <!-- busses start -->
-     <!-- busses end -->
+    <!-- busses start -->
+    <section
+      class="w-full mx-auto rounded-t-[40px] bg-white shadow border-t-2 border-solid border-green-500 mt-6"
+    >
+      <div class="justify-center text-center mt-9">
+        <h1 class="lg:text-[40px] text-[25px] text-amber-700">
+          Sakib <span class="text-black">Poribohan</span>
+        </h1>
+        <p>
+          Yes, you can run unit tests and view the results directly within the
+          app. The integrated testing features allow for a streamlined .
+        </p>
+      </div>
+
+      <!-- at deatiels start -->
+      <div class="grid grid-cols-8">
+        <div class="col-span-5 mx-4">
+          <!-- avialable seats section start -->
+          <div class="flex justify-between gap-x-42 items-center">
+               <div class="flex mt-7">
+                     <div>
+                        <img src="./smart-ticketing/images/bus-logo.png" alt="" />
+                     </div>
+                     <div>
+                        <h1 class="ml-3 lg:text-[40px] text-[25px] text-amber-700">
+                           Sakib <span class="text-black">Poribohan</span>
+                        </h1>
+                        <p class="text-gray-500">Coach-009-WEB ! AC_Business</p>
+                     </div>
+               </div>
+            <div>
+              <button class="btn btn-outline btn-accent">
+                Avilable seats: <span>34</span>
+              </button>
+            </div>
+          </div>
+          <!-- avialable seats section end -->
+           <!--route start  -->
+            <div class="flex flex-col gap-y-3 mt-3">
+               <div class="flex justify-around">
+                  <div class="">
+                     <p class="text-gray-700">Route</p>
+                  </div>
+                  <div class="">
+                     
+                     <p class="text-black font-extrabold">Dhaka-Magura</p>
+                  </div>
+                 </div>
+
+                 <div class="flex justify-around">
+                  <div class="">
+                     <p class="text-gray-700">Departure Time</p>
+                  </div>
+                  <div class="">
+                     
+                     <p class="text-black font-extrabold">9.00PM</p>
+                  </div>
+                 </div>
+            </div>
+            <div class="mt-10 flex justify-around">
+               <button class="btn btn-neutral">Boarding Point - Dhaka(Abdullahpur)</button>
+               <button class="btn btn-neutral">Dropping Point - Magura</button>
+               <button class="btn btn-neutral">Est. Time - 3.5 Hour</button>
+            </div>
+           
+           <!--route end  -->
+        </div>
+        <div class="col-span-3 bg-black"></div>
+      </div>
+      <!-- at deatiels end -->
+    </section>
+    <!-- busses end -->
     <script src="./script/theem.js"></script>
-</body>
+  </body>
 </html>
