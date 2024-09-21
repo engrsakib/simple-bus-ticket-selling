@@ -3,9 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Smart Ticketing</title>
+    <!-- css and tailwind -->
+     <link rel="stylesheet" href="./output/output.css">
+     <!-- font awsame -->
+     <script src="https://kit.fontawesome.com/3c3766bed1.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <!-- main section start -->
+     <main class="container mx-auto">
+        <!-- navbar start -->
+         <nav class="w-4/5 h-[70px] m-7 mx-auto bg-white mt-3 shadow flex justify-between">
+            <!-- logo start -->
+             <div>
+                <h1 class="text-[40px] text-amber-700">Sakib <span class="text-black">Poribohan</span></h1>
+             </div>
+            <!-- logo end -->
+             <!-- manu start -->
+              <div class="flex items-center justify-between list-none gap-x-4 max-sm:hidden">
+               <li><a href="">Home</a></li>
+               <li><a href="">About</a></li>
+               <li><a href="">Destination</a></li>
+               <li><a href="">Search</a></li>
+              </div>
+             <!-- manu end -->
+            <!-- button -->
+            <button class="btn btn-outline btn-accent"><i class="fa-solid fa-van-shuttle"></i></button>
+            <!-- button -->
+         </nav>
+        <!-- navbar end -->
+         <!-- carusal start -->
+          <div class="container my-4">
+            <div class="carousel w-full h-14">
+               <div id="item1" class="carousel-item w-full">
+                 <img
+                   src="./smart-ticketing/images/banner.png"
+                   class="w-full" />
+               </div>
+               <div id="item2" class="carousel-item w-full">
+                 <img
+                   src="./smart-ticketing/images/image.jpg"
+                   class="w-full" />
+               </div>
+               <div id="item3" class="carousel-item w-full">
+                 <img
+                   src="./smart-ticketing/images/img2.jpg"
+                   class="w-full" />
+               </div>
+               <div id="item4" class="carousel-item w-full">
+                 <img
+                   src="./smart-ticketing/images/ScaniaSleeper.jpg"
+                   class="w-full h-14" />
+               </div>
+             </div>
+             <div class="flex w-full justify-center gap-2 py-2">
+               <a href="#item1" class="btn btn-xs">1</a>
+               <a href="#item2" class="btn btn-xs">2</a>
+               <a href="#item3" class="btn btn-xs">3</a>
+               <a href="#item4" class="btn btn-xs">4</a>
+             </div>
+          </div>
+         <!-- carusal end -->
+     </main>
+    <!-- main section end -->
+    <script src="./script/theem.js"></script>
 </body>
 </html>
