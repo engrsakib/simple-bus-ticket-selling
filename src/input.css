@@ -3,8 +3,24 @@
 @tailwind utilities;
 /* components layer */
 @layer components{
-
+    .bg-yellow{
+        background-image: url('../smart-ticketing/images/yellow.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .bg-pink{
+        background-image: url('../smart-ticketing/images/Rectangle.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 }
 @layer utilities{
     
+}
+@layer base{
+    *{
+        font-family: "Roboto", sans-serif;
+    }
 }
